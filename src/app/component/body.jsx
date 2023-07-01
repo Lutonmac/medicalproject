@@ -1,6 +1,7 @@
 import Image from 'next/image'
-import React from 'react'
+
 import { UnifrakturCook, Racing_Sans_One, Merriweather_Sans, Lato, Abril_Fatface } from 'next/font/google'
+import Link from 'next/link'
 
 
 
@@ -18,8 +19,8 @@ export default function Body() {
     <main className=''>
     <div className='bg-blue-500 md:flex'>
 
-        <section className='  grid w-full justify-center py-24 px-2'>
-            <article className='w-[65%] md:w-[45%] p-10 '>
+        <section className='  grid w-full justify-center py-40 px-2 md:px-10 '>
+            <article className='w-[65%] md:w-[45%] p-10'>
                 <h2 className='md:text-[2rem] text-[18px] text-white'>Health is your greatest asset.</h2>
             </article>
             <article className=' -mt-5 w-[65%]'>
@@ -27,7 +28,7 @@ export default function Body() {
                     illness, but a state of 
                     complete physical, mental, and social well-being.</p>
                     <span className='grid py-5 px-10 justify-start'>
-                        <p className='py-3 hidden  px-10 bg-slate-300 md:flex'>Book an appointment</p>
+                   <Link href={`../Book`}><p className='py-3 hidden  px-10 bg-slate-300 md:flex'>Book an appointment</p></Link> 
                          </span>
                      <span className=' flex justify-center'>
                         <p className='px-10 flex sm:py-4 -mt-6 bg-slate-300 md:hidden w-[60%]'>Book</p>
@@ -37,10 +38,10 @@ export default function Body() {
         </section>
         <article className='flex justify-center -mt-10'>
             <Image src={'https://images.unsplash.com/photo-1504439468489-c8920d796a29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80'}
-            width={600}
+            width={9000}
             height={400}
             alt='/'
-             className='md:w-[150%] sm:w-full sm:h-full md:h-full'       />
+             className='md:w-[100%] sm:w-full sm:h-full md:h-full'       />
         </article>
     </div>
     <div className='bg-[#0A132E] p-14'>

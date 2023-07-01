@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { GiRodOfAsclepius } from "react-icons/gi";
 
 export default function Footer() {

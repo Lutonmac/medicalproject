@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <g transform="rotate(45 100 100)">
+    <path d="M80,100
+             A80,80 0 0,1 180,105" 
+          fill="none" stroke="blue" stroke-width="2"/>
+  
+    <path d="M80,120
+             A80,80 0 0,1 170,120" 
+          fill="none" stroke="blue" stroke-width="2" />
+
+<path d="M80,140
+             A70,70 0 0,1 170,140" 
+          fill="none" stroke="blue" stroke-width="2" />
+  </g>
+</svg>

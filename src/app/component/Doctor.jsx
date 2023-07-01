@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Image from "next/image";
 import Youtube from './Youtube';
 import Questions from './questions';

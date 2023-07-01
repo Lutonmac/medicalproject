@@ -1,7 +1,8 @@
 import { AiOutlineCheckCircle } from "react-icons/ai";
 
-import React from 'react'
+
 import Image from 'next/image'
+import Link from "next/link";
 
 export default function Questions() {
   return (
@@ -30,7 +31,7 @@ export default function Questions() {
             </span>
         </ul>
         <div className='flex p-5 justify-center md:grid md:justify-start '>
-        <button className='p-5 bg-blue-600 '>Book an appointment</button>
+               <Link href={`/Book`}><p className='p-5 bg-blue-600 '>Book an appointment</p></Link> 
             </div>
           
             </div>

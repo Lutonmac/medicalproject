@@ -1,4 +1,3 @@
-import React from 'react';
 import { TbDentalBroken, TbDental, TbDentalOff } from "react-icons/tb";
 import { FaTooth } from "react-icons/fa";
 import {Oswald} from 'next/font/google'
