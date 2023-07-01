@@ -8,7 +8,7 @@ import React from 'react'
 
 export default function List() {
   return (
-    <main className='md:h-[1400px] h-[2400px] py-32'>
+    <main className='md:h-[1500px] h-[2700px] '>
 
 
 

@@ -6,13 +6,13 @@
 
 export default function Rite() {
   return (
-    <main className='py-10'>
+    <main className=''>
 
 
 
 
 
-    <div className='grid md:grid-cols-3 md:grid-row-3 h-[2700px] md:h-[1400px] px-16 py-36 grid-cols-1 md:gap-4 gap-y-2 '>
+    <div className='grid md:grid-cols-3 md:grid-row-3 h-[3100px] md:h-[1700px] px-16 py-16 grid-cols-1 md:gap-4 gap-y-2 '>
   
   
     <section className=' md:col-span-3'>

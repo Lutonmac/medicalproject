@@ -22,7 +22,7 @@ export default function Contact() {
             
           <textarea name="" id="" cols="30" placeholder='Type your text here' rows="10" className=' placeholder:p-1 md:p-5'/>
            
-           <div className="py-2 "> 
+           <div className="py-2 px-5"> 
            <button className=' text-start p-4 bg-blue-700 shadow-md  shadow-blue-600 '>Submit Now</button>
             </div>
         </article>

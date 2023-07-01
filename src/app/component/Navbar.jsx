@@ -15,14 +15,14 @@ export default function Navbar() {
    }
   return (
     <div>
-        <nav className='fixed shadow-xl w-screen bg-white h-32 '>
+        <nav className='fixed shadow-xl w-screen p-5 bg-white h-10 '>
             <div className='flex justify-between items-center h-full w-full px-4 2xl:px-16'>
         <Link href={'/'} >  
             
         <Image
         src={logo}
        alt='logo'
-       width={200}
+       width={70}
        height={70}
         className='rounded-md'
         />

@@ -5,9 +5,9 @@ import React from 'react'
 
 export default function Book() {
   return (
-   <main  className=''>
+   <main  className='py-12'>
     <div>
-        <section className='md:py-32 bg-blue-700'>
+        <section className='md:py-32 py-5 bg-blue-700'>
             <article className='p-5  md:px-28'>
                 <h2 className={`text-[4rem] text-white`}>
                     Book Us
